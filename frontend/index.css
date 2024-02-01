@@ -1,0 +1,10 @@
+body {
+  background-color: antiquewhite;
+}
+
+.rectangle {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  margin: 0px 25px;
+}
