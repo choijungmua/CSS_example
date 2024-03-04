@@ -1,0 +1,12 @@
+input:focus {
+  color: red;
+}
+
+input:checked + span {
+  color: red;
+}
+
+input :enabled,
+button :enabled {
+  background-color: red;
+}

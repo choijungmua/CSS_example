@@ -1,0 +1,38 @@
+h1,
+.title,
+#your {
+  color: red;
+}
+
+.box > .innerbox {
+  color: blue;
+}
+
+.box p {
+  color: green;
+}
+
+p::after {
+  content: "<world>";
+}
+p::before {
+  content: "<hello>";
+}
+
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: brown;
+}
+a:hover {
+  background-color: red;
+}
+
+.click:active {
+  color: white;
+}
+
+span:active {
+  background-color: orange;
+}
