@@ -1,0 +1,23 @@
+p {
+  color: red;
+}
+
+#title {
+  color: orange;
+}
+
+.box,
+#title {
+  color: blue;
+}
+
+section > div {
+  color: green;
+}
+
+label + input {
+  background-color: purple;
+}
+a[href] > span {
+  background-color: aqua;
+}

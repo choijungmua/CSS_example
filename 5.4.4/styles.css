@@ -17,3 +17,11 @@ p:nth-last-child(2) {
 p:nth-of-type(2) {
   color: red;
 }
+
+p:first-of-type {
+  color: tomato;
+}
+
+p:last-of-type {
+  color: blueviolet;
+}
