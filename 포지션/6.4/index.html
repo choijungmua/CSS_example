@@ -5,27 +5,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <style>
+      body {
+        margin: 0px;
+      }
       .box {
         width: 100px;
         height: 100px;
       }
-      .red-box {
+      .container {
+        width: 400px;
+        padding: 1rem;
+        margin: 0 auto;
+        border: 1px solid black;
+        background-color: #ccc;
+      }
+      .red {
         background-color: red;
         float: left;
       }
-      .green-box {
+      .green {
         background-color: green;
         float: left;
       }
-      .blue-box {
-        background-color: blue;
-        clear: left;
+      .container::after {
+        content: "";
+        display: block;
+        clear: both;
       }
     </style>
   </head>
   <body>
-    <div class="box red-box"></div>
-    <div class="box green-box"></div>
-    <div class="box blue-box"></div>
+    <div class="container">
+      <div class="box red"></div>
+      <div class="box green"></div>
+    </div>
   </body>
 </html>
